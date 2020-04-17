@@ -1,0 +1,50 @@
+[
+  {
+    "darkLogo": "protekt_black.svg",
+    "lightLogo": "protekt_white.svg",
+    "tile": "protekt.jpg",
+    "title": "Secured app suite, using client side encryption",
+    "description": "Protekt comes with a set of tools whose data is secured using cryptography and no one other than you can ever view the data. Designed with security as a primary factor from ground up. Your passwords never leave your workstation. Our servers have zero knowledge about your password. Number of apps supported under this will increase over time.",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Express JS</i>, <i>Cryptography</>",
+    "appUrl": "https://protekt.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/protekt-express"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/protekt" }
+    ]
+  },
+  {
+    "darkLogo": "curate_black.svg",
+    "lightLogo": "curate_white.svg",
+    "tile": "curate.jpg",
+    "title": "Bookmark and notes app",
+    "description": "Bookmarking and note taking website with no ads and no third party tracking. Capture notes with the power of markdown / html formatting. Modern UI with support for light and dark modes. Powerful search capabilities with custom search engine configuration. Tagging support across bookmarks and notes.",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Express JS</i>",
+    "appUrl": "https://curate.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/curate-express"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/curate" }
+    ]
+  },
+  {
+    "darkLogo": "mirror_black.svg",
+    "lightLogo": "mirror_white.svg",
+    "tile": "mirror.jpg",
+    "title": "AI powered customer support tool",
+    "description": "Use the power of machine learning to do automated search of an user issue and recommend solutions. If the user is not answered, issue will go through a full fledged support system workflow. Customer support person answers the question and this goes into the knowledge base for further training. Easy path to migrate from traditional support systems.",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Python</i>, <i>Machine learning</i>",
+    "appUrl": "https://mirror.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/mirror-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/mirror" }
+    ]
+  }
+]

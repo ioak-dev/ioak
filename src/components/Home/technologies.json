@@ -1,0 +1,37 @@
+[
+  {
+    "title": "JavaScript",
+    "logo": "python_logo.svg",
+    "description": "Dynamically typed programming language that dominates the frontend development landscape. We focus on the language fundamentals. We use typescript, Node, Express, React JS with Redux, Vue JS, Angular"
+  },
+  {
+    "title": "Python",
+    "logo": "python_logo.svg",
+    "description": "Robust and flexible programming language, that lets you do rapid prototyping. We use Python for machine learning and deep learning projects heavily, with libraries such as Pandas, Sklearn, Tensorflow. Reliable web service backends using the power of Flask and Django frameworks"
+  },
+  {
+    "title": "Elixir",
+    "logo": "python_logo.svg",
+    "description": "Enter the world of functional programming. Elixir is an expressive programming language that lets you write error free code. Rock solid and stable for production grade mission critical backend systems. Built on top of highly performant Erlang virtual machine BEAM. We use Elixir with Phoenix framework"
+  },
+  {
+    "title": "Java",
+    "logo": "java_logo.svg",
+    "description": "Most heavily used programming language in the enterprise world"
+  },
+  {
+    "title": "Golang",
+    "logo": "python_logo.svg",
+    "description": "Google powered statically typed programming language, that we use to build web services using mux as a lightweight framework. We like the simplified and fast performance of the language"
+  },
+  {
+    "title": "PHP",
+    "logo": "python_logo.svg",
+    "description": "Most heavily used programming language for developing content based websites with a long track record. We use PHP with Symfony and Laravel frameworks for backend web services"
+  },
+  {
+    "title": "HTML & CSS",
+    "logo": "python_logo.svg",
+    "description": "We like to go with fundamentals and hence, all our component libraries are homegrown using plain CSS and SASS. We avoid third party component libraries like bootstrap and material ui as they limit the understanding of core concepts"
+  }
+]
