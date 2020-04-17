@@ -59,14 +59,14 @@ const Mobile = (props: Props) => {
           {/* links */}
         </div>
         <div className="right">
-          {/* <div className="settings-icon" onClick={props.toggleSettings}><i className="material-icons">settings</i></div> */}
-          <div
-            className={data.menu ? 'menu active' : 'menu'}
-            onClick={toggleMenu}
-          >
-            <div />
+          <div className="dark-mode">
+            <i
+              className="material-icons"
+              onClick={() => props.toggleDarkMode()}
+            >
+              brightness_6
+            </i>
           </div>
-          {/* action login */}
         </div>
       </div>
       <div
