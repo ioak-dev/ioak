@@ -2,6 +2,14 @@
   {
     "darkLogo": "ioak_black.svg",
     "lightLogo": "ioak_white.svg",
+    "tile": "mercury.jpg",
+    "title": "Collaborative chat and message broadcast service",
+    "description": "TBD",
+    "footnote": "TBD"
+  },
+  {
+    "darkLogo": "ioak_black.svg",
+    "lightLogo": "ioak_white.svg",
     "tile": "seed.jpg",
     "title": "Dynamic QR code generator",
     "description": "TBD",
@@ -12,14 +20,6 @@
     "lightLogo": "ioak_white.svg",
     "tile": "seed.jpg",
     "title": "REST API mocking service",
-    "description": "TBD",
-    "footnote": "TBD"
-  },
-  {
-    "darkLogo": "ioak_black.svg",
-    "lightLogo": "ioak_white.svg",
-    "tile": "seed.jpg",
-    "title": "JSON transform",
     "description": "TBD",
     "footnote": "TBD"
   },

@@ -87,9 +87,9 @@ const Home = (props: Props) => {
               </div> */}
               <div className="footer">
                 <div className="call-to-action">
-                  <OakButton theme="primary" variant="animate none">
+                  {/* <OakButton theme="primary" variant="animate none">
                     Join the community
-                  </OakButton>
+                  </OakButton> */}
                 </div>
               </div>
             </div>

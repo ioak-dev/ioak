@@ -69,28 +69,26 @@ const ProjectTile = (props: Props) => {
               </OakButton>
             </div>
           )}
-          <div>
-            {props.data.codeUrl &&
-              props.data.codeUrl.map(item => (
-                <OakButton
-                  theme="primary"
-                  variant="animate in"
-                  action={() => visitGithub(item.url)}
-                >
-                  <div className="button-with-logo">
-                    <img
-                      src={
-                        profile.theme === 'theme_dark'
-                          ? githubLogoLight
-                          : githubLogoDark
-                      }
-                      alt="github logo"
-                    />
-                    {item.label}
-                  </div>
-                </OakButton>
-              ))}
-          </div>
+          {props.data.codeUrl &&
+            props.data.codeUrl.map(item => (
+              <OakButton
+                theme="primary"
+                variant="animate in"
+                action={() => visitGithub(item.url)}
+              >
+                <div className="button-with-logo">
+                  <img
+                    src={
+                      profile.theme === 'theme_dark'
+                        ? githubLogoLight
+                        : githubLogoDark
+                    }
+                    alt="github logo"
+                  />
+                  {item.label}
+                </div>
+              </OakButton>
+            ))}
         </div>
       </div>
     </OakCardWide>

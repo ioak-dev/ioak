@@ -1,5 +1,53 @@
 [
   {
+    "darkLogo": "ipsum_black.svg",
+    "lightLogo": "ipsum_white.svg",
+    "tile": "ipsum.jpg",
+    "title": "Multi-lingual random text generator",
+    "description": "Tired of typing filler text to test your applications? Here is the app that generates random text the way you want. You can generate a randomly generated meaningless word as well as meaningful sentences, powered by machine learning.",
+    "footnote": "Built using <i>Vue JS</i>, <i>Elixir</i>, <i>Python</i>",
+    "appUrl": "https://ipsum.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/ipsum-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/ipsum" }
+    ]
+  },
+  {
+    "darkLogo": "oneauth_black.svg",
+    "lightLogo": "oneauth_white.svg",
+    "tile": "oneauth.jpg",
+    "title": "Single sign on provider",
+    "description": "Oneauth provides authentication, authorization, and user identity management for your organization. Supports single sign on across all your applications. Users can sign in with their user name and password, or through third party such as Facebook and google",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Python</i>",
+    "appUrl": "https://oneauth.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/oneauth-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/oneauth" }
+    ]
+  },
+  {
+    "darkLogo": "janus_black.svg",
+    "lightLogo": "janus_white.svg",
+    "tile": "janus.jpg",
+    "title": "Agile management tool",
+    "description": "Modern and sleek user interface with advanced capabilities to plan and execute your project efficiently. Supports Scrum and Kanban agile management processes. Unlimited number of projects and teams",
+    "footnote": "Built using <i>Vue JS</i>, <i>Python</i>",
+    "appUrl": "https://janus.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/janus-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/janus" }
+    ]
+  },
+  {
     "darkLogo": "protekt_black.svg",
     "lightLogo": "protekt_white.svg",
     "tile": "protekt.jpg",
@@ -13,38 +61,6 @@
         "url": "https://github.com/ioak-dev/protekt-express"
       },
       { "label": "Frontend", "url": "https://github.com/ioak-dev/protekt" }
-    ]
-  },
-  {
-    "darkLogo": "curate_black.svg",
-    "lightLogo": "curate_white.svg",
-    "tile": "curate.jpg",
-    "title": "Bookmark and notes app",
-    "description": "Bookmarking and note taking website with no ads and no third party tracking. Capture notes with the power of markdown / html formatting. Modern UI with support for light and dark modes. Powerful search capabilities with custom search engine configuration. Tagging support across bookmarks and notes.",
-    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Express JS</i>",
-    "appUrl": "https://curate.ioak.org",
-    "codeUrl": [
-      {
-        "label": "Backend",
-        "url": "https://github.com/ioak-dev/curate-express"
-      },
-      { "label": "Frontend", "url": "https://github.com/ioak-dev/curate" }
-    ]
-  },
-  {
-    "darkLogo": "mirror_black.svg",
-    "lightLogo": "mirror_white.svg",
-    "tile": "mirror.jpg",
-    "title": "AI powered customer support tool",
-    "description": "Use the power of machine learning to do automated search of an user issue and recommend solutions. If the user is not answered, issue will go through a full fledged support system workflow. Customer support person answers the question and this goes into the knowledge base for further training. Easy path to migrate from traditional support systems.",
-    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Python</i>, <i>Machine learning</i>",
-    "appUrl": "https://mirror.ioak.org",
-    "codeUrl": [
-      {
-        "label": "Backend",
-        "url": "https://github.com/ioak-dev/mirror-service"
-      },
-      { "label": "Frontend", "url": "https://github.com/ioak-dev/mirror" }
     ]
   }
 ]

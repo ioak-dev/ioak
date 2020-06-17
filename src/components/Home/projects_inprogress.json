@@ -1,26 +1,34 @@
 [
   {
-    "darkLogo": "ipsum_black.svg",
-    "lightLogo": "ipsum_white.svg",
-    "tile": "ipsum.jpg",
-    "title": "Multi-lingual random text generator",
-    "description": "Tired of typing filler text to test your applications? Here is the app that generates random text the way you want. You can generate a randomly generated meaningless word as well as meaningful sentences, powered by machine learning.",
-    "footnote": "Built using <i>Vue JS</i>, <i>Elixir</i>, <i>Python</i>, <i>Machine learning (NLG)</i>"
+    "darkLogo": "mirror_black.svg",
+    "lightLogo": "mirror_white.svg",
+    "tile": "mirror.jpg",
+    "title": "AI powered customer support tool",
+    "description": "Use the power of machine learning to do automated search of an user issue and recommend solutions. If the user is not answered, issue will go through a full fledged support system workflow. Customer support person answers the question and this goes into the knowledge base for further training. Easy path to migrate from traditional support systems.",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>GraphQL</i>, <i>Python</i>, <i>Machine learning</i>",
+    "appUrl": "https://mirror.ioak.org",
+    "codeUrl": [
+      {
+        "label": "GraphQL",
+        "url": "https://github.com/ioak-dev/mirror-graph-server"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/mirror" }
+    ]
   },
   {
-    "darkLogo": "janus_black.svg",
-    "lightLogo": "janus_white.svg",
-    "tile": "janus.jpg",
-    "title": "Agile management tool",
-    "description": "Modern and sleek user interface with advanced capabilities to plan and execute your project efficiently. Supports Scrum and Kanban agile management processes. Unlimited number of projects and teams",
-    "footnote": "Built using <i>Vue JS</i>, <i>Python Django</i>"
-  },
-  {
-    "darkLogo": "ioak_black.svg",
-    "lightLogo": "ioak_white.svg",
-    "tile": "seed.jpg",
-    "title": "Single sign on provider",
-    "description": "TBD",
-    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Python Django</i>"
+    "darkLogo": "reshape_black.svg",
+    "lightLogo": "reshape_white.svg",
+    "tile": "reshape.jpg",
+    "title": "Structural JSON transformation",
+    "description": "Flatten a nested Json to interpret meaningfully, by analysing the internal relations in the nested structure. Allows you to inspect a Json, convert into CSV. Flatten using traditional (one Json object to one Json output object) or dynamic relational interpretation (one Json object to one or more objects based on internal structure)",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Elixir</i>",
+    "appUrl": "https://reshape.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/reshape-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/reshape" }
+    ]
   }
 ]
