@@ -1,21 +1,5 @@
 [
   {
-    "darkLogo": "ipsum_black.svg",
-    "lightLogo": "ipsum_white.svg",
-    "tile": "ipsum.jpg",
-    "title": "Multi-lingual random text generator",
-    "description": "Tired of typing filler text to test your applications? Here is the app that generates random text the way you want. You can generate a randomly generated meaningless word as well as meaningful sentences, powered by machine learning.",
-    "footnote": "Built using <i>Vue JS</i>, <i>Elixir</i>, <i>Python</i>",
-    "appUrl": "https://ipsum.ioak.org",
-    "codeUrl": [
-      {
-        "label": "Backend",
-        "url": "https://github.com/ioak-dev/ipsum-service"
-      },
-      { "label": "Frontend", "url": "https://github.com/ioak-dev/ipsum" }
-    ]
-  },
-  {
     "darkLogo": "oneauth_black.svg",
     "lightLogo": "oneauth_white.svg",
     "tile": "oneauth.jpg",
@@ -32,6 +16,38 @@
     ]
   },
   {
+    "darkLogo": "mirror_black.svg",
+    "lightLogo": "mirror_white.svg",
+    "tile": "mirror.jpg",
+    "title": "AI powered customer support tool",
+    "description": "Use the power of machine learning to do automated search of an user issue and recommend solutions. If the user is not answered, issue will go through a full fledged support system workflow. Customer support person answers the question and this goes into the knowledge base for further training. Easy path to migrate from traditional support systems.",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>GraphQL</i>, <i>Python</i>, <i>Machine learning</i>",
+    "appUrl": "https://mirror.ioak.org",
+    "codeUrl": [
+      {
+        "label": "GraphQL",
+        "url": "https://github.com/ioak-dev/mirror-graph-server"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/mirror" }
+    ]
+  },
+  {
+    "darkLogo": "ipsum_black.svg",
+    "lightLogo": "ipsum_white.svg",
+    "tile": "ipsum.jpg",
+    "title": "Multi-lingual random text generator",
+    "description": "Tired of typing filler text to test your applications? Here is the app that generates random text the way you want. You can generate a randomly generated meaningless word as well as meaningful sentences, powered by machine learning.",
+    "footnote": "Built using <i>Vue JS</i>, <i>Elixir</i>, <i>Python</i>",
+    "appUrl": "https://ipsum.ioak.org",
+    "codeUrl": [
+      {
+        "label": "Backend",
+        "url": "https://github.com/ioak-dev/ipsum-service"
+      },
+      { "label": "Frontend", "url": "https://github.com/ioak-dev/ipsum" }
+    ]
+  },
+  {
     "darkLogo": "janus_black.svg",
     "lightLogo": "janus_white.svg",
     "tile": "janus.jpg",
@@ -45,22 +61,6 @@
         "url": "https://github.com/ioak-dev/janus-service"
       },
       { "label": "Frontend", "url": "https://github.com/ioak-dev/janus" }
-    ]
-  },
-  {
-    "darkLogo": "protekt_black.svg",
-    "lightLogo": "protekt_white.svg",
-    "tile": "protekt.jpg",
-    "title": "Secured app suite, using client side encryption",
-    "description": "Protekt comes with a set of tools whose data is secured using cryptography and no one other than you can ever view the data. Designed with security as a primary factor from ground up. Your passwords never leave your workstation. Our servers have zero knowledge about your password. Number of apps supported under this will increase over time.",
-    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Express JS</i>, <i>Cryptography</>",
-    "appUrl": "https://protekt.ioak.org",
-    "codeUrl": [
-      {
-        "label": "Backend",
-        "url": "https://github.com/ioak-dev/protekt-express"
-      },
-      { "label": "Frontend", "url": "https://github.com/ioak-dev/protekt" }
     ]
   }
 ]

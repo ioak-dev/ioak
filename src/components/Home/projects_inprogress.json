@@ -1,21 +1,5 @@
 [
   {
-    "darkLogo": "mirror_black.svg",
-    "lightLogo": "mirror_white.svg",
-    "tile": "mirror.jpg",
-    "title": "AI powered customer support tool",
-    "description": "Use the power of machine learning to do automated search of an user issue and recommend solutions. If the user is not answered, issue will go through a full fledged support system workflow. Customer support person answers the question and this goes into the knowledge base for further training. Easy path to migrate from traditional support systems.",
-    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>GraphQL</i>, <i>Python</i>, <i>Machine learning</i>",
-    "appUrl": "https://mirror.ioak.org",
-    "codeUrl": [
-      {
-        "label": "GraphQL",
-        "url": "https://github.com/ioak-dev/mirror-graph-server"
-      },
-      { "label": "Frontend", "url": "https://github.com/ioak-dev/mirror" }
-    ]
-  },
-  {
     "darkLogo": "reshape_black.svg",
     "lightLogo": "reshape_white.svg",
     "tile": "reshape.jpg",
@@ -30,5 +14,13 @@
       },
       { "label": "Frontend", "url": "https://github.com/ioak-dev/reshape" }
     ]
+  },
+  {
+    "darkLogo": "mercury_black.svg",
+    "lightLogo": "mercury_white.svg",
+    "tile": "mercury.jpg",
+    "title": "Activity stream and colloborative chat provider",
+    "description": "TBD",
+    "footnote": "Built using <i>React</i>, <i>Redux</i>, <i>Elixir</i>, <i>Web sockets</i>"
   }
 ]
