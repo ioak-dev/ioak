@@ -1,0 +1,89 @@
+.hero-section {
+  // background-color: #21d4fd;
+  // background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  // background-color: #ff3cac;
+  // background-image: linear-gradient(
+  //   225deg,
+  //   #ff3cac 0%,
+  //   #784ba0 50%,
+  //   #2b86c5 100%
+  // );
+  // background-image: linear-gradient(
+  //     109.6deg,
+  //     rgba(44, 83, 131, 0.7) 18.9%,
+  //     rgba(95, 175, 201, 0.4) 91.1%
+  //   ),
+  //   url("../../assets/illustration/hero.svg");
+  // url("../../assets/hero.jpg");
+  background-image: linear-gradient(109.8deg,
+      rgba(62, 5, 116, 0.4) -5.2%,
+      rgba(41, 14, 151, 0.5) -5.2%,
+      rgba(216, 68, 148, 0.4) 103.3%),
+    url("../../assets/illustration/hero.svg");
+
+  background-image: linear-gradient(111.3deg,
+      rgba(74, 105, 187, 0.9) 9.6%,
+      rgba(216, 68, 148, 0.4) 103.3%),
+    url("../../assets/illustration/hero6.svg");
+
+  // background-image: linear-gradient(111.3deg,
+  //     rgba(33, 68, 166, 0.5) 19.6%,
+  //     rgba(216, 68, 148, 0.5) 103.3%),
+  //   url("../../assets/illustration/hero6.svg");
+
+  // background-image: linear-gradient(111.3deg,
+  //     rgba(13, 54, 167, 0.4) 9.6%,
+  //     rgba(150, 19, 89, 0.502) 103.3%),
+  //   url("../../assets/illustration/hero4.svg");
+
+  //   url("../../assets/hero.jpg");
+  // background-image: linear-gradient(
+  //     109.6deg,
+  //     rgba(101, 58, 150, 0.8) 29.9%,
+  //     rgba(168, 141, 194, 0.8) 99.9%
+  //   ),
+  //   url("../../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-size: cover;
+  background-position: center center;
+
+  .hero-section--container {
+    min-height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 0 10px;
+
+    @media (max-width: 767px) {
+      padding: 0 10px;
+    }
+  }
+}
+
+.hero-content {
+  color: #ffffff;
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.hero-illustration {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+
+  img {
+    width: 95%;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}

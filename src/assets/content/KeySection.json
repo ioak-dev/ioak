@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "faIcon": "fas fa-palette",
+      "title": "Sleek user interface",
+      "description": "A sleek and clean user interface keeps you away from any distractions. Filters that allow you to focus on the relevant topics for you. Allow you to choose between light and dark modes based on your personal preference."
+    },
+    {
+      "faIcon": "fas fa-hand-holding-usd",
+      "title": "Free and open source",
+      "description": "Janus is free for both personal and commercial purposes. Get all features necessary to manage an agile project effectively. You can create as many projects and teams as you need without limits."
+    },
+    {
+      "faIcon": "fab fa-superpowers",
+      "title": "Advanced features",
+      "description": "Logically group tasks with the power of custom checklist groups against a task. Choose between story points or time estimates to plan and track project deliverables. Create your workflow unique for each project."
+    }
+  ]
+}

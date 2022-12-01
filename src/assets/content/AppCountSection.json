@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "faIcon": "fas fa-palette",
+      "title": "Inception",
+      "count": 1
+    },
+    {
+      "faIcon": "fas fa-palette",
+      "title": "In development",
+      "count": 2
+    },
+    {
+      "faIcon": "fas fa-palette",
+      "title": "Completed",
+      "count": 4
+    }
+  ]
+}

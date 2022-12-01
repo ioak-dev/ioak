@@ -1,0 +1,58 @@
+{
+  "companyProfile": {
+    "title": "IOAK Developer Community",
+    "description": "IOAK developer community is set to share knowledge to software developers through realtime project implementations. Specialized in web development and Artificial intelligence"
+  },
+  "contact": [
+    {
+      "faIcon": "fas fa-envelope",
+      "label": "info@ioak.org"
+    },
+    {
+      "faIcon": "fas fa-phone-alt",
+      "label": "+91-8095500622"
+    },
+    {
+      "faIcon": "fab fa-discord",
+      "label": "https://discord.gg/B76x6cq"
+    },
+    {
+      "faIcon": "fab fa-linkedin-in",
+      "label": "https://www.linkedin.com/company/ioak"
+    }
+  ],
+  "links": [
+    {
+      "group": "Help and Support",
+      "list": [
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/browse",
+          "label": "Frequently asked questions"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/browse?categoryid=5eda9fff230dba0017a0f25a",
+          "label": "Use cases"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/post/create",
+          "label": "Ask question"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
+          "label": "API documentation"
+        },
+        {
+          "href": "https://github.com/ioak-dev/janus-service",
+          "label": "Source code"
+        }
+      ]
+    }
+  ],
+  "backup": {
+    "group": "Legal and Privacy",
+    "list": [
+      { "href": "/terms", "label": "Terms and Conditions" },
+      { "href": "/privacy", "label": "Privacy Policy" }
+    ]
+  }
+}
