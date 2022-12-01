@@ -29,6 +29,7 @@
 .app-count-section-sectiontile__title {
   font-size: 14px;
   font-weight: bold;
+  line-height: 1;
 }
 
 .app-count-section-sectiontile__count {
@@ -37,4 +38,13 @@
   display: flex;
   padding: 4px;
   border: 2px solid var(--color-primary);
+  line-height: 1;
+}
+
+.app-count-section-sectiontile:nth-child(2) .app-count-section-sectiontile__count {
+  align-items: flex-end;
+}
+.app-count-section-sectiontile:nth-child(3) .app-count-section-sectiontile__count {
+  justify-content: flex-end;
+  align-items: flex-end;
 }
