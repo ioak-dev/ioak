@@ -1,0 +1,40 @@
+.app-count-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #333333;
+  color: #fff;
+
+  .app-count-section__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 100px 0;
+    ;
+  }
+}
+
+.app-count-section-sectiontile {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.app-count-section__heading {
+  display: flex;
+  justify-content: center;
+}
+
+.app-count-section-sectiontile__title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.app-count-section-sectiontile__count {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 4px;
+  border: 2px solid var(--color-primary);
+}

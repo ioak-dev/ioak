@@ -18,6 +18,7 @@ import SpecialitySection from "../components/SpecialitySection"
 // import SpecialitySection from "../components/SpecialitySection"
 
 import highlightContentOne from "../assets/content/HighlightSectionOne.json"
+import AppCountSection from "../components/AppCountSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -27,6 +28,7 @@ const IndexPage = () => (
     <div>Header</div>
     <HeroSection />
     <SpecialitySection data={highlightContentOne} />
+    <AppCountSection />
     {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
     <FeatureSection />
