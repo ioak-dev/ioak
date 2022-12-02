@@ -10,7 +10,11 @@ interface Props {
     title: string
     logo: string
     screenshotOne: string
+    screenshotTwo: string
     descriptionOne: string
+    descriptionTwo: string
+    descriptionThree: string
+    technologies: string[]
   }
 }
 
@@ -25,19 +29,16 @@ export default function ProjectVariantOne(props: Props) {
       </div> */}
       <div className="project-variant-one__container">
         <div className="project-variant-one__container__first">
-          <OakAnimateElement direction="right">
-            <div className="project-variant-one__container__first__right">
-              <img className="app-screenshot" src={props.data.screenshotOne} />
-            </div>
-          </OakAnimateElement>
-          <OakAnimateElement direction="left">
+          <OakAnimateElement direction="none">
             <div className="project-variant-one__container__first__left">
               <div className="project-variant-one__container__first__left__top">
-                <div className="project-variant-one__container__first__left__top__tile-one">
-                  {props.data.title}
-                </div>
                 <div className="project-variant-one__container__first__left__top__tile-two">
                   <img className="app-logo" src={props.data.logo} />
+                </div>
+                <div className="project-variant-one__container__first__left__top__tile-one">
+                  {props.data.technologies.map((item: string) =>
+                    <img className="technology-logo" src={item} />
+                  )}
                 </div>
               </div>
               <div className="project-variant-one__container__first__left__bottom">
@@ -45,27 +46,26 @@ export default function ProjectVariantOne(props: Props) {
               </div>
             </div>
           </OakAnimateElement>
-        </div>
-        <div className="project-variant-one__container__second">
-          <OakAnimateElement direction="left">
-            <div className="project-variant-one__container__second__right">
-              <div className="project-variant-one__container__second__right__tile-one">
-                {props.data.title}
-              </div>
-              <div className="project-variant-one__container__second__right__tile-two">
-                {props.data.title}
-              </div>
-              <div className="project-variant-one__container__second__right__tile-three">
-                {props.data.title}
-              </div>
-              <div className="project-variant-one__container__second__right__tile-four">
-                {props.data.title}
-              </div>
+          <OakAnimateElement direction="none">
+            <div className="project-variant-one__container__first__right">
+              <img className="app-screenshot" src={props.data.screenshotOne} />
             </div>
           </OakAnimateElement>
-          <OakAnimateElement direction="right">
+        </div>
+        <div className="project-variant-one__container__second">
+          <OakAnimateElement direction="none">
             <div className="project-variant-one__container__second__left">
-              <img className="app-screenshot" src={props.data.screenshotOne} />
+              <img className="app-screenshot" src={props.data.screenshotTwo} />
+            </div>
+          </OakAnimateElement>
+          <OakAnimateElement direction="none">
+            <div className="project-variant-one__container__second__right">
+              <div className="project-variant-one__container__second__right__tile-one">
+                {props.data.descriptionTwo}
+              </div>
+              <div className="project-variant-one__container__second__right__tile-two">
+                {props.data.descriptionThree}
+              </div>
             </div>
           </OakAnimateElement>
         </div>

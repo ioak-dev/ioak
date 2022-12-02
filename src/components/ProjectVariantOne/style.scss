@@ -33,9 +33,11 @@
 
 .project-variant-one__container__second__right {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
   row-gap: 20px;
-  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .project-variant-one__container__first__left__top {
@@ -48,13 +50,15 @@
 .project-variant-one__container__first__left__top__tile-two,
 .project-variant-one__container__first__left__bottom,
 .project-variant-one__container__second__right__tile-one,
-.project-variant-one__container__second__right__tile-two,
-.project-variant-one__container__second__right__tile-three,
-.project-variant-one__container__second__right__tile-four {
+.project-variant-one__container__second__right__tile-two {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+.project-variant-one__container__first__left__top__tile-one {
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .project-variant-one__container__first__left__top__tile-two {
@@ -63,9 +67,7 @@
 .project-variant-one__container__first__left__top__tile-one,
 .project-variant-one__container__first__left__bottom,
 .project-variant-one__container__second__right__tile-one,
-.project-variant-one__container__second__right__tile-two,
-.project-variant-one__container__second__right__tile-three,
-.project-variant-one__container__second__right__tile-four {
+.project-variant-one__container__second__right__tile-two {
   background-color: #bad9ff40;
 }
 

@@ -102,12 +102,21 @@
   .app-screenshot {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     object-fit: contain;
   }
-  .app-logo {    width: 100px;
+  .app-logo,
+  .technology-logo {    
+    width: 120px;
     height: 100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+  }
+  .technology-logo {    
+    width: auto;
+    height: 32px;
+    padding-right: 6px;
+    padding-bottom: 6px;
   }
 }

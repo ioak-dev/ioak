@@ -1,13 +1,16 @@
 {
-  "title": "App to manage and optimize expenses",
-  "logo": "static/janus_white.svg",
+  "logo": "static/fortuna_white.svg",
   "screenshotOne": "static/boardview.jpg",
-  "descriptionOne": "Fortuna uses statistical analysis behind the scenes, to give useful insights about your spends",
-  "tiles": [
-    {
-      "faIcon": "fas fa-palette",
-      "title": "Sleek user interface",
-      "description": "A sleek and clean user interface keeps you away from any distractions. Filters that allow you to focus on the relevant topics for you. Allow you to choose between light and dark modes based on your personal preference."
-    }
+  "screenshotTwo": "static/boardview.jpg",
+  "descriptionOne": "Expense management app that uses statistical analysis behind the scenes, to give useful insights about your spends",
+  "descriptionTwo": "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters",
+  "descriptionThree": "Automatic posting capabilities for recurring expenses",
+  "technologies": [
+    "static/technology-logo/nodejs.svg",
+    "static/technology-logo/javascript.svg",
+    "static/technology-logo/typescript.svg",
+    "static/technology-logo/react.svg",
+    "static/technology-logo/mongodb.svg",
+    "static/technology-logo/github.svg"
   ]
 }
