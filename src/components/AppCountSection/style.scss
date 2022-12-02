@@ -25,7 +25,7 @@
   display: grid;
   grid-auto-flow: row;
   justify-content: center;
-  justify-items: flex-start;
+  justify-items: center;
 }
 
 .app-count-section__heading__accent {
@@ -33,19 +33,20 @@
   grid-auto-flow: column;
   column-gap: 6px;
   div {
-    height: 10px;
+    height: 6px;
+    width: 72px;
     border-radius: 50px;
     background-color: var(--color-primary);
   }
 }
 
-.app-count-section__heading__accent div:nth-child(1), .app-count-section__heading__accent div:nth-child(2) {
-  width: 16px;
-}
+// .app-count-section__heading__accent div:nth-child(1), .app-count-section__heading__accent div:nth-child(2) {
+//   width: 16px;
+// }
 
-.app-count-section__heading__accent div:nth-child(3) {
-  width: 72px;
-}
+// .app-count-section__heading__accent div:nth-child(3) {
+//   width: 72px;
+// }
 
 .app-count-section-sectiontile__title {
   font-size: 14px;
