@@ -1,0 +1,13 @@
+{
+  "title": "Expense management application",
+  "logo": "static/janus_white.svg",
+  "screenshotOne": "static/boardview.jpg",
+  "descriptionOne": "Fortuna uses statistical analysis behind the scenes, to give useful insights about your spends",
+  "tiles": [
+    {
+      "faIcon": "fas fa-palette",
+      "title": "Sleek user interface",
+      "description": "A sleek and clean user interface keeps you away from any distractions. Filters that allow you to focus on the relevant topics for you. Allow you to choose between light and dark modes based on your personal preference."
+    }
+  ]
+}

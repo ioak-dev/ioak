@@ -8,7 +8,7 @@ export default function AppCountSection() {
   return (
     <div className="app-count-section column-layout">
       <div className="app-count-section__heading">
-        <h2 className="app-count-section__heading__title heading--2">Active Projects</h2>
+        <h3 className="app-count-section__heading__title heading--3">Active Projects</h3>
         <div className="app-count-section__heading__accent">
           <div />
         </div>
