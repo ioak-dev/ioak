@@ -3,7 +3,7 @@ import "./styles/oak-animate-element.scss"
 
 interface Props {
   children?: ReactNode
-  direction?: "down" | "up" | "right" | "left"
+  direction?: "down" | "up" | "right" | "left" | "none"
 }
 
 const OakAnimateElement = (props: Props) => {
