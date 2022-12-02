@@ -1,13 +1,11 @@
 .project-variant-one {
-  padding-top: 20px;
-  padding-bottom: 20px;
   // background-color: #333333;
   // color: #fff;
 
   .project-variant-one__container {
     display: grid;
     grid-auto-flow: row;
-    padding: 100px 0;
+    padding: 50px 0;
     column-gap: 40px;
     row-gap: 40px;
   }
@@ -15,15 +13,29 @@
 
 .project-variant-one__container__first, .project-variant-one__container__second {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 40px;
+
+  @media (max-width: 767px) {
+    grid-template-rows: 1fr 1fr;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .project-variant-one__container__first__left {
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 20px;
+}
+
+.project-variant-one__container__second__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 .project-variant-one__container__first__left__top {
@@ -34,7 +46,11 @@
 
 .project-variant-one__container__first__left__top__tile-one,
 .project-variant-one__container__first__left__top__tile-two,
-.project-variant-one__container__first__left__bottom {
+.project-variant-one__container__first__left__bottom,
+.project-variant-one__container__second__right__tile-one,
+.project-variant-one__container__second__right__tile-two,
+.project-variant-one__container__second__right__tile-three,
+.project-variant-one__container__second__right__tile-four {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +61,11 @@
   background-color: var(--color-primary);
 }
 .project-variant-one__container__first__left__top__tile-one,
-.project-variant-one__container__first__left__bottom {
+.project-variant-one__container__first__left__bottom,
+.project-variant-one__container__second__right__tile-one,
+.project-variant-one__container__second__right__tile-two,
+.project-variant-one__container__second__right__tile-three,
+.project-variant-one__container__second__right__tile-four {
   background-color: #bad9ff40;
 }
 
