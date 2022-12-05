@@ -1,19 +1,23 @@
 {
-  "data": [
-    {
-      "faIcon": "fas fa-palette",
-      "title": "Conceptual",
-      "count": 1
-    },
-    {
-      "faIcon": "fas fa-palette",
-      "title": "In development",
-      "count": 2
-    },
-    {
-      "faIcon": "fas fa-palette",
-      "title": "Completed",
-      "count": 4
-    }
-  ]
+  "data": {
+    "title": "text",
+    "subtitle": "sub text",
+    "tiles": [
+      {
+        "faIcon": "fas fa-palette",
+        "title": "Conceptual",
+        "count": 1
+      },
+      {
+        "faIcon": "fas fa-palette",
+        "title": "In development",
+        "count": 2
+      },
+      {
+        "faIcon": "fas fa-palette",
+        "title": "Completed",
+        "count": 4
+      }
+    ]
+  }
 }
