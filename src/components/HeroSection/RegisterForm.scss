@@ -1,0 +1,27 @@
+.register-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    z-index: 100;
+}
+
+.register-form__backdrop {
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000010;
+    overflow: hidden;
+}
+.register-form__content {
+    z-index: 102;
+    background-color: #ffffff;
+}

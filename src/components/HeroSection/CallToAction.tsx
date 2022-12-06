@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import "./CallToAction.scss"
 import OakButton from "../oakfly/OakButton"
+import RegisterForm from "./RegisterForm"
 
 interface Props {
   theme?: "primary" | "default"
@@ -10,15 +11,18 @@ interface Props {
   }
 }
 export default function CallToAction(props: Props) {
+  const [showForm, setShowForm] = useState(false);
+
   return (
     <div className="call-to-action">
       <OakButton
-        action={() => (window.location.href = "https://app.janus.ioak.io")}
+        action={() => setShowForm(true)}
         theme={props.theme || "primary"}
         variant="regular"
       >
         {props.data.label}
       </OakButton>
+      {showForm && <RegisterForm />}
     </div>
   )
 }

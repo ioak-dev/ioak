@@ -1,12 +1,12 @@
 {
   "data": {
-    "title": "text",
-    "subtitle": "sub text",
+    "title": "Join us in the journey of producing open source softwares",
+    "subtitle": "that solve real world problems. Share us your ideas, and we will help you to translate it into a business case",
     "tiles": [
       {
         "faIcon": "fas fa-palette",
-        "title": "Conceptual",
-        "count": 1
+        "title": "Live applications",
+        "count": 4
       },
       {
         "faIcon": "fas fa-palette",
@@ -15,8 +15,8 @@
       },
       {
         "faIcon": "fas fa-palette",
-        "title": "Completed",
-        "count": 4
+        "title": "Conceptual",
+        "count": 1
       }
     ]
   }
