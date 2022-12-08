@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Open+Sans|Open+Sans+Condensed:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap");
+// @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  box-sizing: border-box;
+  --color-header: #564f70;
+  --color-footer: #564f70;
+  --color-primary: #45b3e4;
+  --color-primary-i: #fff;
+  --color-secondary-1: #efac78;
+  --color-secondary-2: #fdf2ea;
+  --color-default-1: #737373;
+  --color-default-2: #7b7885;
+  --metric-formelement-height: 40px;
+  --metric-formelement-height-mobile: 36px;
+
+  --color-background-1: #ffffff;
+  --color-background-2: #f2f3f5;
+  --color-background-3: #ebedef;
+  --color-background-4: #ffffff;
+  --color-background-5: #ffffff;
+
+  --color-foreground-1: #202225;
+  --color-foreground-2: #292b2f;
+  --color-foreground-3: #2f3136;
+  --color-foreground-4: #2f3136;
+  --color-foreground-5: #2f3136;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  word-break: break-word;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 16px;
+
+  .space-bottom-1 {
+    margin-bottom: 1.45rem;
+  }
+
+  .heading--1 {
+    font-size: 48px;
+    line-height: 1.4;
+    font-weight: 200;
+
+    @media (max-width: 767px) {
+      font-size: 36px;
+    }
+  }
+
+  .heading--2 {
+    font-size: 38px;
+    line-height: 1.5;
+    font-weight: 300 !important;
+
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  .heading--3 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    @media (max-width: 767px) {
+      font-size: 28px;
+    }
+  }
+
+  .column-layout {
+    padding: 0 100px;
+
+    @media (max-width: 767px) {
+      padding: 0 10px;
+    }
+
+    margin: auto;
+  }
+
+  .mobile-only {
+    @media (min-width: 768px) {
+      display: none !important;
+    }
+  }
+
+  .desktop-only {
+    @media (max-width: 767px) {
+      display: none !important;
+    }
+  }
+
+  .emphasize-text {
+    font-weight: 700;
+    color: var(--color-secondary-1);
+    background-color: var(--color-secondary-2);
+    display: inline;
+    font-size: inherit;
+  }
+
+  .deemphasize-text {
+    color: #00000070;
+  }
+
+  .app-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: contain;
+  }
+  .app-logo,
+  .technology-logo {    
+    width: 120px;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .technology-logo {    
+    width: auto;
+    height: 32px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+  }
+}

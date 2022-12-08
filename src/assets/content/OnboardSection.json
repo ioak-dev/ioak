@@ -1,0 +1,29 @@
+{
+  "title": "Getting started",
+  "steps": [
+    {
+      "title": "Setup a space for your company",
+      "description": "Janus is powered by Oneauth for user authentication. Get started by creating a space in Oneauth for your company. Space can be used across all products offered by IOAK. Single user account across all products with support for single sign on (SSO)."
+    },
+    {
+      "title": "Provision users",
+      "description": "Users can sign up for a user account in Oneauth by themselves. Once a user account is signed up for, you can add them to a team."
+    },
+    {
+      "title": "Setup your team",
+      "description": "Create one or more teams and add members into the team, allowing them to access all projects to which the team is associated. You can create any number of teams with different members in each team. Team administrators can be configured to manage the team."
+    },
+    {
+      "title": "Create a project",
+      "description": "Create a project and add one or more teams to work on the project. You can configure project administrators and an image background to the project task board."
+    },
+    {
+      "title": "Define the project workflow",
+      "description": "Setup different stages that symbolize the life cycle of a task. You can move a task between these workflow stages as needed."
+    },
+    {
+      "title": "Start rocking",
+      "description": "Start managing your project with Epics and different types of tasks (User Story, Task, Sub-task, Defect)."
+    }
+  ]
+}

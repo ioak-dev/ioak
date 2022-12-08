@@ -1,0 +1,28 @@
+{
+  "title": "Key Features",
+  "description": "Features focused to address your business problems",
+  "data": [
+    {
+      "image": "features/li_responsive.svg",
+      "title": "Responsive user interface",
+      "description": "Looks great on all your devices. A sleek and clean user interface keeps you away from any distractions. Allow you to choose between light and dark modes based on your personal preference."
+    },
+    {
+      "alt": true,
+      "image": "features/il_timeline.svg",
+      "title": "Story points and estimation",
+      "description": "TBD"
+    },
+    {
+      "image": "features/li_filter.svg",
+      "title": "Dynamic filters",
+      "description": "Filters that allow you to focus on the topics that are relevant for you at the moment. Create custom filters and choose to publish it to the team."
+    },
+    {
+      "alt": true,
+      "image": "features/il_checklist.svg",
+      "title": "Checklist to track a task",
+      "description": "Logically group tasks with the power of custom checklist groups against a task. Choose between story points or time estimates to plan and track project deliverables. Create your workflow unique for each project."
+    }
+  ]
+}

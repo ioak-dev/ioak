@@ -1,0 +1,9 @@
+{
+  "title": "Are you ready?",
+  "description": "Take your project management efficiency to the next level. Make your day to day work a breeze and never miss a project schedule.",
+  "illustration": "illustration/board.svg",
+  "callToAction": {
+    "label": "Start today",
+    "faIcon": "fas fa-snowman"
+  }
+}

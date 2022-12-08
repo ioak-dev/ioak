@@ -1,0 +1,23 @@
+{
+  "data": {
+    "title": "Join us in the journey of producing open source softwares",
+    "subtitle": "that solve real world problems. Share us your ideas, and we will help you to translate it into a business case",
+    "tiles": [
+      {
+        "faIcon": "fas fa-palette",
+        "title": "Live applications",
+        "count": 4
+      },
+      {
+        "faIcon": "fas fa-palette",
+        "title": "In development",
+        "count": 2
+      },
+      {
+        "faIcon": "fas fa-palette",
+        "title": "Conceptual",
+        "count": 1
+      }
+    ]
+  }
+}

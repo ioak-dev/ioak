@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "title": "How do I onboard my organization to Janus?",
+      "description": "Janus is powered by Oneauth for user authentication. When you onboard your organization to use Janus, you set up a space for your organization in Oneauth. All your organization members will be part of this space that is isolated to your organization."
+    },
+    {
+      "title": "Why do I not see a user that I am looking for in Janus?",
+      "description": "Once a user signs up for a user account in Oneauth, the user should log in to Janus once to get the user listed within the Janus app. If the user has no account in Oneauth, then ask the user to create a user account in Oneauth first."
+    },
+    {
+      "title": "How do I request for a feature that is not available currently?",
+      "description": "If you would like to include a feature that is not currently supported, you can contact us by sending an inquiry or post a question on our <a href='https://mirror.ioak.org/#/a1/post/create' title='Submit feature request'>forum</a> section. We will respond back to you on the feasibility and the expected time to add the feature."
+    },
+    {
+      "title": "How do I contribute to the project, as a developer?",
+      "description": "Janus is an open-source initiative and we welcome you to post your code changes as a pull request on our Github repository. We will review the code and merge it to the main branch on successful testing and validation."
+    }
+  ]
+}
