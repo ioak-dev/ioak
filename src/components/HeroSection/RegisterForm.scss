@@ -18,10 +18,35 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #00000010;
+    background-color: #00000060;
     overflow: hidden;
 }
 .register-form__content {
     z-index: 102;
     background-color: #ffffff;
+    width: 500px;
+    max-width: 90vw;
+    border-radius: 6px;
+    padding: 24px;
+}
+
+.register-form__content__form {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+
+    input {
+        width: 100%;
+    }
+}
+
+.register-form__content__form__two-column {
+    display: grid;
+    grid-auto-flow: column;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.register-form__content__form__label {
+    font-size: 10px;
 }

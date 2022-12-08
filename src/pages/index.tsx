@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import FooterSection from "../components/FooterSection"
 import HeroSection from "../components/HeroSection"
@@ -21,18 +21,29 @@ import highlightContentOne from "../assets/content/HighlightSectionOne.json"
 import fortunaSection from "../assets/content/FortunaSection.json"
 import AppCountSection from "../components/AppCountSection"
 import ProjectVariantOne from "../components/ProjectVariantOne"
+import { OpenRegistrationFormEvent } from "../event/OpenRegistrationFormEvent"
+import RegisterForm from "../components/HeroSection/RegisterForm"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
 
-const IndexPage = () => (
-  <div className="page-home">
-    <div>Header</div>
-    <HeroSection />
-    <SpecialitySection data={highlightContentOne} />
-    <AppCountSection />
-    <ProjectVariantOne data={fortunaSection} />
-    {/* <SEO title="Features and getting started" />
+const IndexPage = () => {
+
+  const [showForm, setShowForm] = useState(false);
+
+  useEffect(() => {
+    OpenRegistrationFormEvent.asObservable().subscribe((event: boolean) => { setShowForm(event) });
+  }, []);
+
+  return (
+    <>
+      <div className="page-home">
+        <div>Header</div>
+        <HeroSection />
+        <SpecialitySection data={highlightContentOne} />
+        <AppCountSection />
+        <ProjectVariantOne data={fortunaSection} />
+        {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
     <FeatureSection />
     <SpecialitySection data={highlightContentTwo} direction="left" />
@@ -40,8 +51,11 @@ const IndexPage = () => (
     <ClosingSection />
     <SpecialitySection data={highlightContentThree} direction="right" />
     <CopyrightSection /> */}
-    <FooterSection />
-  </div>
-)
+        <FooterSection />
+      </div>
+      {showForm && <RegisterForm />}
+    </>
+  );
+};
 
 export default IndexPage
