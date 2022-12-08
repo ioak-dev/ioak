@@ -38,7 +38,7 @@ const IndexPage = () => {
   return (
     <>
       <div className="page-home">
-        <div>Header</div>
+        {/* <div>Header</div> */}
         <HeroSection />
         <SpecialitySection data={highlightContentOne} />
         <AppCountSection />

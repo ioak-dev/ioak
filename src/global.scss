@@ -5,9 +5,10 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 
 * {
+  box-sizing: border-box;
   --color-header: #564f70;
   --color-footer: #564f70;
-  --color-primary: #57AAF2;
+  --color-primary: #45b3e4;
   --color-primary-i: #fff;
   --color-secondary-1: #efac78;
   --color-secondary-2: #fdf2ea;
