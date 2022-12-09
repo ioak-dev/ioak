@@ -8,6 +8,7 @@ import { isEmptyOrSpaces } from "../Lib/Utils"
 
 interface Props {
 }
+
 export default function RegisterForm(props: Props) {
 
   const [emailAlreadyExists, setEmailAlreadyExists] = useState(false);
