@@ -1,0 +1,91 @@
+.mirror-section {
+  // background-color: #333333;
+  // color: #fff;
+
+  .mirror-section__container {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 50px 0;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+}
+
+.mirror-section__container__first, .mirror-section__container__second {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 40px;
+
+  @media (max-width: 767px) {
+    grid-template-rows: 1fr 1fr;
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mirror-section__container__first__left {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+}
+
+.mirror-section__container__second__right {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.mirror-section__container__first__left__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.mirror-section__container__first__left__top__tile-one,
+.mirror-section__container__first__left__top__tile-two,
+.mirror-section__container__first__left__bottom,
+.mirror-section__container__second__right__tile-one,
+.mirror-section__container__second__right__tile-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.mirror-section__container__first__left__top__tile-one {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.mirror-section__container__first__left__top__tile-two {
+  background-color: #446695;
+}
+.mirror-section__container__first__left__top__tile-one,
+.mirror-section__container__first__left__bottom,
+.mirror-section__container__second__right__tile-one,
+.mirror-section__container__second__right__tile-two {
+  background-color: #6192d740;
+}
+
+.mirror-section__heading {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.mirror-section__heading__accent {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 6px;
+  div {
+    height: 6px;
+    width: 72px;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+  }
+}
