@@ -23,6 +23,7 @@ import AppCountSection from "../components/AppCountSection"
 import ProjectVariantOne from "../components/ProjectVariantOne"
 import { OpenRegistrationFormEvent } from "../event/OpenRegistrationFormEvent"
 import RegisterForm from "../components/HeroSection/RegisterForm"
+import AiSection from "../components/AiSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -43,6 +44,7 @@ const IndexPage = () => {
         <SpecialitySection data={highlightContentOne} />
         <AppCountSection />
         <ProjectVariantOne data={fortunaSection} />
+        <AiSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
     <FeatureSection />
