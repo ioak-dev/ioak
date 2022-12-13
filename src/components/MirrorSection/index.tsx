@@ -3,9 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade } from 'swiper';
 import "./style.scss"
 import content from "../../assets/content/MirrorSection.json"
-import OakAnimateElement from "../oakfly/OakAnimateElement"
 import screenshot1 from "../../assets/screenshots/mirror/1.jpg"
-import screenshot2 from "../../assets/hero.jpg"
 import ProjectSpotlightSection from "../ProjectSpotlightSection";
 
 
@@ -14,6 +12,6 @@ interface Props {
 
 export default function MirrorSection(props: Props) {
   return (
-    <ProjectSpotlightSection screenshots={[screenshot1, screenshot1]} data={content} />
+    <ProjectSpotlightSection name="fortuna" screenshots={[screenshot1, screenshot1]} data={content} />
   )
 }
