@@ -1,0 +1,16 @@
+{
+  "logo": "static/fortuna_white.svg",
+  "highlights": [
+    "Expense management app that uses statistical analysis to give useful insights about your spends",
+    "Kakeibo accounting system to give you control of your budget and make you aware of spending habits",
+    "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters, budget tracking"
+  ],
+  "technologies": [
+    "static/technology-logo/nodejs.svg",
+    "static/technology-logo/javascript.svg",
+    "static/technology-logo/typescript.svg",
+    "static/technology-logo/react.svg",
+    "static/technology-logo/mongodb.svg",
+    "static/technology-logo/github.svg"
+  ]
+}

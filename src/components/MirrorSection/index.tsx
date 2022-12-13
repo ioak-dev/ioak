@@ -1,8 +1,12 @@
 import React from "react"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade } from 'swiper';
 import "./style.scss"
-import content from "../../assets/content/AppCountSection.json"
+import content from "../../assets/content/MirrorSection.json"
 import OakAnimateElement from "../oakfly/OakAnimateElement"
-import screenshot from "../../assets/preview/boardview.jpg"
+import screenshot1 from "../../assets/screenshots/mirror/1.jpg"
+import screenshot2 from "../../assets/hero.jpg"
+import ProjectSpotlightSection from "../ProjectSpotlightSection";
 
 
 interface Props {
@@ -10,19 +14,6 @@ interface Props {
 
 export default function MirrorSection(props: Props) {
   return (
-    <div className="mirror-section column-layout">
-      {/* <div className="mirror-section__heading">
-        <h3 className="mirror-section__heading__title heading--3">{props.data.title}</h3>
-        <div className="mirror-section__heading__accent">
-          <div />
-        </div>
-      </div> */}
-      <div className="mirror-section__container">
-        <div>content</div>
-        <div className="project-variant-one__container__first__right">
-          <img className="app-screenshot" src={screenshot} />
-        </div>
-      </div>
-    </div>
+    <ProjectSpotlightSection screenshots={[screenshot1, screenshot1]} data={content} />
   )
 }
