@@ -30,7 +30,6 @@ export default function ProjectSpotlightSection(props: Props) {
           </div></OakAnimateElement>))}
         <div className="project-spotlight-section__left__action">
           <button className="project-spotlight-section__left__action__button">Learn more</button>
-          <button className="project-spotlight-section__left__action__button">Learn more</button>
         </div>
       </div>
       <div className="project-spotlight-section__right">

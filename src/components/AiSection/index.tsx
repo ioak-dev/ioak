@@ -15,7 +15,7 @@ export default function AiSection() {
       />
       <div className="ai-section__content">
         <OakAnimateElement>
-          <div className="app-count-section__left">
+          <div className="ai-section__right">
             {content.title} <span className="deemphasize-text">{content.description}</span>
           </div>
         </OakAnimateElement>
