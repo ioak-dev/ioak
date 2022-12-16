@@ -20,11 +20,13 @@ import SpecialitySection from "../components/SpecialitySection"
 import highlightContentOne from "../assets/content/HighlightSectionOne.json"
 import fortunaSection from "../assets/content/FortunaSection.json"
 import AppCountSection from "../components/AppCountSection"
-import ProjectVariantOne from "../components/ProjectVariantOne"
 import { OpenRegistrationFormEvent } from "../event/OpenRegistrationFormEvent"
 import RegisterForm from "../components/HeroSection/RegisterForm"
 import AiSection from "../components/AiSection"
 import MirrorSection from "../components/MirrorSection"
+import SpiritSection from "../components/SpiritSection"
+import FortunaSection from "../components/FortunaSection"
+import MembersSection from "../components/MembersSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -43,10 +45,12 @@ const IndexPage = () => {
         {/* <div>Header</div> */}
         <HeroSection />
         <SpecialitySection data={highlightContentOne} />
-        <AppCountSection />
-        <ProjectVariantOne data={fortunaSection} />
+        <FortunaSection />
+        <MembersSection />
         <AiSection />
         <MirrorSection />
+        <AppCountSection />
+        <SpiritSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
     <FeatureSection />

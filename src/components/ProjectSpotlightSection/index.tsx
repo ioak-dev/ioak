@@ -8,6 +8,7 @@ interface Props {
   name: string,
   screenshots: any[],
   data: {
+    title: string,
     logo: string,
     highlights: string[]
   }
@@ -16,20 +17,24 @@ interface Props {
 export default function ProjectSpotlightSection(props: Props) {
   return (
     <div className={`project-spotlight-section project-spotlight-section--${props.name} column-layout`}>
-      <OakAnimateElement direction="none">
-        <div className="project-spotlight-section__right">
-          <img className="app-logo" src={props.data.logo} />
-          {props.data.highlights.slice(0).map(item => (<div className="project-spotlight-section__right__bottom">
-            {item}
-          </div>))}
-          <div className="project-spotlight-section__right__action">
-            <button className="project-spotlight-section__right__action__button">Learn more</button>
-            <button className="project-spotlight-section__right__action__button">Learn more</button>
-          </div>
-        </div>
-      </OakAnimateElement>
       <div className="project-spotlight-section__left">
-        {/* <img className="app-logo" src={props.data.logo} /> */}
+        {/* <OakAnimateElement direction="none">
+          <img className="app-logo" src={props.data.logo} />
+        </OakAnimateElement> */}
+        <div className="project-spotlight-section__left__title">
+        {props.data.title}
+        </div>
+        {props.data.highlights.slice(0).map(item => (
+          <OakAnimateElement direction="right"><div className="project-spotlight-section__left__bottom">
+            {item}
+          </div></OakAnimateElement>))}
+        <div className="project-spotlight-section__left__action">
+          <button className="project-spotlight-section__left__action__button">Learn more</button>
+          <button className="project-spotlight-section__left__action__button">Learn more</button>
+        </div>
+      </div>
+      <div className="project-spotlight-section__right">
+        <img className="app-logo" src={props.data.logo} />
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade]}
           spaceBetween={50}
