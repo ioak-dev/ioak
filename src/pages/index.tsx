@@ -28,6 +28,7 @@ import FortunaSection from "../components/FortunaSection"
 import MembersSection from "../components/MembersSection"
 import OpenSourceSection from "../components/OpenSourceSection"
 import ElementsSection from "../components/ElementsSection"
+import ReachSection from "../components/ReachSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -52,6 +53,7 @@ const IndexPage = () => {
         <MirrorSection />
         <OpenSourceSection />
         <ElementsSection />
+        <ReachSection />
         <SpiritSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
