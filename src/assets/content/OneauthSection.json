@@ -1,10 +1,9 @@
 {
-  "logo": "static/elements_white.svg",
+  "logo": "static/oneauth_white.svg",
   "title": "Identity provider to secure your web application",
   "highlights": [
-    "Modular react library that lets you build a blog layout of your choice and use it in your website",
-    "Extensible with your own modules on top of the standard modules provided by the library",
-    "Offers plenty of useful layouts and designs to choose from",
-    "A reference implementation for backend data persistence is available. Adapt it for data modeling"
+    "Oneauth handles user account setup, password management and authentication needs of your organization",
+    "Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application",
+    "Customizable sign in page, lets you build a login page that suits your design. Customize every element of the sign in page including, logos and backgrounds"
   ]
 }

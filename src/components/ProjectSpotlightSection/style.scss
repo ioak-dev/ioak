@@ -136,6 +136,13 @@
     url("../../assets/bg/reach.jpg");
 }
 
+.project-spotlight-section--oneauth {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5) -5.2%,
+      rgba(0, 0, 0, 0.5) 104%),
+    url("../../assets/bg/oneauth.jpg");
+}
+
 .project-spotlight-section--fortuna {
   .project-spotlight-section__left__bottom {
     background-color: #00000040;
