@@ -23,7 +23,7 @@ export default function MembersSection(props: Props) {
       <div className="members-section__header">
         <div className="members-section__header__title">
           Our Active Members
-        </div><a className="members-section__header__action" href="https://members.ioak.io/member-list" target="_blank">
+        </div><a className="members-section__header__action" href="https://members.ioak.io/#/member-list" target="_blank">
           VIEW ALL OUR MEMBERS
         </a>
       </div>

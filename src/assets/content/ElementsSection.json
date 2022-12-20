@@ -1,0 +1,9 @@
+{
+  "logo": "static/fortuna_white.svg",
+  "title": "It is not how much money you make, but how much you keep",
+  "highlights": [
+    "Expense management app that uses statistical analysis to give useful insights about your spends",
+    "Kakeibo accounting system to give you control of your budget and make you aware of spending habits",
+    "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters, budget tracking"
+  ]
+}
