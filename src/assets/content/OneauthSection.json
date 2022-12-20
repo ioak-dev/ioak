@@ -1,6 +1,6 @@
 {
   "logo": "static/elements_white.svg",
-  "title": "Do you wish to add a blog like page on your web page?",
+  "title": "Identity provider to secure your web application",
   "highlights": [
     "Modular react library that lets you build a blog layout of your choice and use it in your website",
     "Extensible with your own modules on top of the standard modules provided by the library",
