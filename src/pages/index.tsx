@@ -31,6 +31,8 @@ import ElementsSection from "../components/ElementsSection"
 import ReachSection from "../components/ReachSection"
 import OneauthSection from "../components/OneauthSection"
 import TechnologiesSection from "../components/TechnologiesSection"
+import SecuritySection from "../components/SecuritySection"
+import StatisticsSection from "../components/StatisticsSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -57,7 +59,9 @@ const IndexPage = () => {
         <ElementsSection />
         <TechnologiesSection />
         <ReachSection />
+        <SecuritySection />
         <OneauthSection />
+        <StatisticsSection />
         <SpiritSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />

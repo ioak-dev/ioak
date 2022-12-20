@@ -1,0 +1,23 @@
+.statistics-section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    // background-color: #f8faff;
+    background-color: var(--color-primary);
+    color: var(--color-primary-i);
+}
+
+.statistics-section-tile__count {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.statistics-section-tile__label {
+    font-size: 16px;
+}
