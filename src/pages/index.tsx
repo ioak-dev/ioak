@@ -55,13 +55,13 @@ const IndexPage = () => {
         <MembersSection />
         <AiSection />
         <MirrorSection />
-        <OpenSourceSection />
+        <StatisticsSection />
         <ElementsSection />
         <TechnologiesSection />
         <ReachSection />
         <SecuritySection />
         <OneauthSection />
-        <StatisticsSection />
+        <OpenSourceSection />
         <SpiritSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
