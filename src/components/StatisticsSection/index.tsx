@@ -10,9 +10,16 @@ interface Props {
 export default function StatisticsSection(props: Props) {
   return (
     <div className="statistics-section column-layout">
-      <SectionTile count={10} label="Active members" />
-      <SectionTile count={7} label="Live projects" />
-      <SectionTile count={6} label="Pipeline projects" />
+
+      <OakAnimateElement direction="none">
+        <SectionTile count={10} label="Active members" />
+      </OakAnimateElement>
+      <OakAnimateElement direction="none">
+        <SectionTile count={7} label="Live projects" />
+      </OakAnimateElement>
+      <OakAnimateElement direction="none">
+        <SectionTile count={6} label="Pipeline projects" />
+      </OakAnimateElement>
     </div>
   )
 }

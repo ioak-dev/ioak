@@ -1,0 +1,16 @@
+.free-section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    // background-color: #f8faff;
+    background-color: var(--color-primary);
+    color: var(--color-primary-i);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}

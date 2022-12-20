@@ -3,19 +3,26 @@
     padding-bottom: 160px;
     text-align: center;
     background-color: #f8faff;
-    opacity: 0;
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    animation-name: animateSpirit;
-    animation-iteration-count: infinite;
+    background-color: var(--color-primary);
 }
 
 .spirit-section__text {
     font-family: "Lora", serif;
     font-size: 40px;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-primary-i);
+    opacity: 0;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-name: animateSpirit;
+    animation-iteration-count: infinite;
+
+    height: 72px;
+
+    img {
+        height: 100%;
+    }
 }
 
 @keyframes animateSpirit {
@@ -23,11 +30,11 @@
         opacity: 0;
     }
 
-    40% {
+    30% {
         opacity: 1;
     }
 
-    60% {
+    70% {
         opacity: 1;
     }
 

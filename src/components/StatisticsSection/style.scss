@@ -9,12 +9,22 @@
     align-items: center;
     // background-color: #f8faff;
     background-color: var(--color-primary);
+    background-color: #ea3d56;
     color: var(--color-primary-i);
+
+    @media (max-width: 767px) {
+        grid-auto-flow: row;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .statistics-section-tile__count {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1;
 }
 

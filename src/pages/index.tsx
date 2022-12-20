@@ -18,6 +18,7 @@ import SpecialitySection from "../components/SpecialitySection"
 // import SpecialitySection from "../components/SpecialitySection"
 
 import highlightContentOne from "../assets/content/HighlightSectionOne.json"
+import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 import fortunaSection from "../assets/content/FortunaSection.json"
 import { OpenRegistrationFormEvent } from "../event/OpenRegistrationFormEvent"
 import RegisterForm from "../components/HeroSection/RegisterForm"
@@ -33,6 +34,7 @@ import OneauthSection from "../components/OneauthSection"
 import TechnologiesSection from "../components/TechnologiesSection"
 import SecuritySection from "../components/SecuritySection"
 import StatisticsSection from "../components/StatisticsSection"
+import FreeSection from "../components/FreeSection"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
@@ -60,6 +62,8 @@ const IndexPage = () => {
         <TechnologiesSection />
         <ReachSection />
         <SecuritySection />
+        {/* <FreeSection /> */}
+        <SpecialitySection data={highlightContentTwo} />
         <OneauthSection />
         <OpenSourceSection />
         <SpiritSection />
