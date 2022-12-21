@@ -5,5 +5,9 @@
     "Expense management app that uses statistical analysis to give useful insights about your spends",
     "Kakeibo accounting system to give you control of your budget and make you aware of spending habits",
     "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters, budget tracking"
-  ]
+  ],
+  "action": {
+    "label": "Visit site",
+    "link": "https://fortuna.ioak.io"
+  }
 }

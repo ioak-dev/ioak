@@ -5,5 +5,9 @@
     "Oneauth handles user account setup, password management and authentication needs of your organization",
     "Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application",
     "Customizable sign in page, lets you build a login page that suits your design. Customize every element of the sign in page including, logos and backgrounds"
-  ]
+  ],
+  "action": {
+    "label": "Visit site",
+    "link": "https://oneauth.ioak.io"
+  }
 }

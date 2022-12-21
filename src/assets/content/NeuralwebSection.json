@@ -5,5 +5,9 @@
     "Acts as a second brain and lets you visualize all of your thoughts and how they are related",
     "Tap into your forgotten knowledge and associate deeper with your thoughts and ideas",
     "Artificial intelligence helps you to find and connect related ideas from anywhere in your knowledge base, that are not usually possible otherwise"
-  ]
+  ],
+  "action": {
+    "label": "Visit app",
+    "link": "https://neuralweb-app.ioak.io"
+  }
 }
