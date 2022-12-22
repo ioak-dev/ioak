@@ -38,7 +38,7 @@ export default function RegisterForm(props: Props) {
   const handleSubmit = (event: any) => {
     event.preventDefault();
     if (validateForm()) {
-      httpPost("/api/member", state, {}).then((response: any) => {
+      httpPost("/api/member", {...state, email: state.email.toLowerCase()}, {}).then((response: any) => {
         setMemberId(response.data.code);
       })
         .catch((error: any) => {
