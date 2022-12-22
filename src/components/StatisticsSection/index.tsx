@@ -5,6 +5,7 @@ import SectionTile from "./SectionTile"
 
 
 interface Props {
+  membersCount: number;
 }
 
 export default function StatisticsSection(props: Props) {
@@ -12,7 +13,7 @@ export default function StatisticsSection(props: Props) {
     <div className="statistics-section column-layout">
 
       <OakAnimateElement direction="none">
-        <SectionTile count={10} label="Active members" />
+        <SectionTile count={props.membersCount} label="Active members" />
       </OakAnimateElement>
       <OakAnimateElement direction="none">
         <SectionTile count={7} label="Live projects" />

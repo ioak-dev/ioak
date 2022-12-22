@@ -35,11 +35,21 @@ import TechnologiesSection from "../components/TechnologiesSection"
 import SecuritySection from "../components/SecuritySection"
 import StatisticsSection from "../components/StatisticsSection"
 import FreeSection from "../components/FreeSection"
+import { httpGet } from "../components/Lib/RestTemplate"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
 
 const IndexPage = () => {
+  const [members, setMembers] = useState<any[]>([]);
+
+  useEffect(() => {
+    httpGet("/api/member", {}).then((response: any) => {
+      setMembers(response.data);
+    })
+      .catch((error: any) => {
+      })
+  }, [])
 
   const [showForm, setShowForm] = useState(false);
 
@@ -54,10 +64,10 @@ const IndexPage = () => {
         <HeroSection />
         <SpecialitySection data={highlightContentOne} />
         <FortunaSection />
-        <MembersSection />
+        <MembersSection members={members} />
         <AiSection />
         <MirrorSection />
-        <StatisticsSection />
+        <StatisticsSection membersCount={members.length} />
         <ElementsSection />
         <TechnologiesSection />
         <ReachSection />

@@ -5,18 +5,10 @@ import { httpGet } from "../Lib/RestTemplate";
 
 
 interface Props {
+  members: any[]
 }
 
 export default function MembersSection(props: Props) {
-  const [members, setMembers] = useState<any[]>([]);
-
-  useEffect(() => {
-    httpGet("/api/member", {}).then((response: any) => {
-      setMembers(response.data);
-    })
-      .catch((error: any) => {
-      })
-  }, [])
 
   return (
     <div className="members-section column-layout">
@@ -26,7 +18,7 @@ export default function MembersSection(props: Props) {
         </div>
       </div>
       <div className="members-section__main">
-        {members.map((item: any) =>
+        {props.members.map((item: any) =>
         (
           <div className="members-section__main__tile">
             <img className="members-section__main__tile__img" src={item.profilePic || 'https://images.unsplash.com/photo-1516737488405-7b6d6868fad3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMjk0OTh8MHwxfHNlYXJjaHw0fHxiYWxsZXR8ZW58MHwwfHx8MTYyMTMzODkyNA&ixlib=rb-1.2.1&q=80&w=1080'} />
