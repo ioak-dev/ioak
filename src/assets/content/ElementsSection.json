@@ -1,0 +1,13 @@
+{
+  "logo": "static/elements_white.svg",
+  "title": "Enable customers to create landing pages on your SaaS platform",
+  "highlights": [
+    "Integrate a website builder to your tenant based web application, that allows your tenants to create their own front page",
+    "Elements lets you design a fully functional landing page. Generates HTML markup that you can use and host as you like",
+    "Block editor library fromElements lets you edit long pages of content easier than the traditional WYSIWYG / markdown based editors"
+  ],
+  "action": {
+    "label": "Visit app",
+    "link": "https://elements.ioak.io"
+  }
+}

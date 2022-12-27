@@ -1,0 +1,31 @@
+{
+  "title": "Expertise on wide range of technologies",
+  "description": "helps to get a holistic view of software development practice. We are a continously learning community that likes to explore unfamiliar territories in our projects",
+  "technologies": [
+    "static/technology-logo/adobexd.svg",
+    "static/technology-logo/android.svg",
+    "static/technology-logo/angular.svg",
+    "static/technology-logo/bootstrap.svg",
+    "static/technology-logo/docker.svg",
+    "static/technology-logo/electron.svg",
+    "static/technology-logo/figma.svg",
+    "static/technology-logo/flutter.svg",
+    "static/technology-logo/gatsby.svg",
+    "static/technology-logo/gcp.svg",
+    "static/technology-logo/github.svg",
+    "static/technology-logo/illustrator.svg",
+    "static/technology-logo/java.svg",
+    "static/technology-logo/javascript.svg",
+    "static/technology-logo/lightroom.svg",
+    "static/technology-logo/minio.svg",
+    "static/technology-logo/mongodb.svg",
+    "static/technology-logo/nodejs.svg",
+    "static/technology-logo/python.svg",
+    "static/technology-logo/react.svg",
+    "static/technology-logo/sass.svg",
+    "static/technology-logo/spring.svg",
+    "static/technology-logo/tensorflow.svg",
+    "static/technology-logo/typescript.svg",
+    "static/technology-logo/vue.svg"
+  ]
+}

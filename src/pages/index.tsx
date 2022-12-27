@@ -18,16 +18,38 @@ import SpecialitySection from "../components/SpecialitySection"
 // import SpecialitySection from "../components/SpecialitySection"
 
 import highlightContentOne from "../assets/content/HighlightSectionOne.json"
+import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 import fortunaSection from "../assets/content/FortunaSection.json"
-import AppCountSection from "../components/AppCountSection"
-import ProjectVariantOne from "../components/ProjectVariantOne"
 import { OpenRegistrationFormEvent } from "../event/OpenRegistrationFormEvent"
 import RegisterForm from "../components/HeroSection/RegisterForm"
+import AiSection from "../components/AiSection"
+import MirrorSection from "../components/MirrorSection"
+import SpiritSection from "../components/SpiritSection"
+import FortunaSection from "../components/FortunaSection"
+import MembersSection from "../components/MembersSection"
+import OpenSourceSection from "../components/OpenSourceSection"
+import ElementsSection from "../components/ElementsSection"
+import ReachSection from "../components/ReachSection"
+import OneauthSection from "../components/OneauthSection"
+import TechnologiesSection from "../components/TechnologiesSection"
+import SecuritySection from "../components/SecuritySection"
+import StatisticsSection from "../components/StatisticsSection"
+import FreeSection from "../components/FreeSection"
+import { httpGet } from "../components/Lib/RestTemplate"
 // import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
 // import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 // import FeatureSection from "../components/FeatureSection"
 
 const IndexPage = () => {
+  const [members, setMembers] = useState<any[]>([]);
+
+  useEffect(() => {
+    httpGet("/api/member", {}).then((response: any) => {
+      setMembers(response.data);
+    })
+      .catch((error: any) => {
+      })
+  }, [])
 
   const [showForm, setShowForm] = useState(false);
 
@@ -41,8 +63,20 @@ const IndexPage = () => {
         {/* <div>Header</div> */}
         <HeroSection />
         <SpecialitySection data={highlightContentOne} />
-        <AppCountSection />
-        <ProjectVariantOne data={fortunaSection} />
+        <FortunaSection />
+        <MembersSection members={members} />
+        <AiSection />
+        <MirrorSection />
+        <StatisticsSection membersCount={members.length} />
+        <ElementsSection />
+        <TechnologiesSection />
+        <ReachSection />
+        <SecuritySection />
+        {/* <FreeSection /> */}
+        <SpecialitySection data={highlightContentTwo} />
+        <OneauthSection />
+        <OpenSourceSection />
+        <SpiritSection />
         {/* <SEO title="Features and getting started" />
     <SpecialitySection data={highlightContentOne} />
     <FeatureSection />

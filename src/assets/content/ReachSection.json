@@ -1,0 +1,10 @@
+{
+  "logo": "static/elements_white.svg",
+  "title": "Do you wish to add a blog like page on your web page?",
+  "highlights": [
+    "Modular react library that lets you build a blog layout of your choice and use it in your website",
+    "Extensible with your own modules on top of the standard modules provided by the library",
+    "Offers plenty of useful layouts and designs to choose from",
+    "A reference implementation for backend data persistence is available. Adapt it for data modeling"
+  ]
+}

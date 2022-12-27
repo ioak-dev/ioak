@@ -1,16 +1,13 @@
 {
   "logo": "static/fortuna_white.svg",
-  "screenshotOne": "static/boardview.jpg",
-  "screenshotTwo": "static/boardview.jpg",
-  "descriptionOne": "Expense management app that uses statistical analysis to give useful insights about your spends",
-  "descriptionTwo": "Kakeibo accounting system to give you control of your budget and make you aware of spending habits",
-  "descriptionThree": "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters, budget tracking",
-  "technologies": [
-    "static/technology-logo/nodejs.svg",
-    "static/technology-logo/javascript.svg",
-    "static/technology-logo/typescript.svg",
-    "static/technology-logo/react.svg",
-    "static/technology-logo/mongodb.svg",
-    "static/technology-logo/github.svg"
-  ]
+  "title": "It is not how much money you make, but how much you keep",
+  "highlights": [
+    "Expense management app that uses statistical analysis to give useful insights about your spends",
+    "Kakeibo accounting system to give you control of your budget and make you aware of spending habits",
+    "Advanced features like detection of duplicate transactions, auto posting of recurring spends, advanced filters, budget tracking"
+  ],
+  "action": {
+    "label": "Visit site",
+    "link": "https://fortuna.ioak.io"
+  }
 }

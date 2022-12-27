@@ -1,0 +1,52 @@
+.security-section {
+  padding: 60px 20px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: grid;
+  background-color: #f2f2f2;
+  // background-color: #010101;
+  // color: var(__color-background-1);
+  @media (max-width: 767px) {
+    grid-template-rows: 1fr 1fr;
+  }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  align-items: center;
+  column-gap: 20px;
+  img {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .security-section__content {
+    .security-section__content__container {
+      text-align: center;
+      display: grid;
+      row-gap: 20px;
+      align-content: center;
+      grid-auto-flow: row;
+      .security-section__content__container__description p {
+        font-family: "Playfair Display", serif;
+      }
+    }
+  }
+
+  // .security-section__image {
+  //   display: flex;
+  //   justify-self: center;
+  //   background-image: url("../../assets/ai_section.jpg");
+  //   background-repeat: no-repeat;
+  //   // background-attachment: fixed;
+  //   background-size: cover;
+  //   background-position: center center;
+  //   height: 100%;
+  //   width: 100%;
+  // }
+}
+
+
+.security-section__right, .security-section__right span {
+  font-size: 24px;
+}

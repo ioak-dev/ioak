@@ -1,6 +1,8 @@
-.app-count-section {
+.open-source-section {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   background-color: #f2f2f2;
   color: #000;
   display: grid;
@@ -16,16 +18,17 @@
     align-items: center;
   }
 
-  .app-count-section__right {
+  .open-source-section__right {
     display: grid;
     justify-content: center;
+    justify-items: center;
     grid-auto-flow: row;
     // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     row-gap: 40px;
   }
 }
 
-.app-count-section-sectiontile {
+.open-source-section-sectiontile {
   display: grid;
   grid-auto-flow: row;
   row-gap: 10px;
@@ -33,19 +36,19 @@
   // justify-items: flex-start;
 }
 
-.app-count-section__left,
-.app-count-section__left span {
+.open-source-section__left,
+.open-source-section__left span {
   font-size: 24px;
   // display: grid;
 }
 
-.app-count-section-sectiontile__title {
+.open-source-section-sectiontile__title {
   font-size: 14px;
   // font-weight: bold;
   line-height: 1;
 }
 
-.app-count-section-sectiontile__count {
+.open-source-section-sectiontile__count {
   font-size: 24px;
   font-weight: bold;
   width: 40px;
@@ -57,11 +60,15 @@
   line-height: 1;
 }
 
-.app-count-section-sectiontile:nth-child(2) .app-count-section-sectiontile__count {
+.open-source-section-sectiontile:nth-child(2) .open-source-section-sectiontile__count {
   align-items: flex-end;
 }
 
-.app-count-section-sectiontile:nth-child(3) .app-count-section-sectiontile__count {
-  justify-content: flex-end;
+.open-source-section-sectiontile:nth-child(3) .open-source-section-sectiontile__count {
+  justify-content: center;
   align-items: flex-end;
+}
+
+.open-source-section__right img {
+  width: 70%;
 }
