@@ -39,7 +39,7 @@ export default function RegisterForm(props: Props) {
     event.preventDefault();
     if (validateForm()) {
       httpPost("/api/member", {...state, email: state.email.toLowerCase()}, {}).then((response: any) => {
-        setMemberId(response.data.code);
+        setMemberId(response.data.memberId);
       })
         .catch((error: any) => {
           if (error.response.status === 409) {
