@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import "./RegisterForm.scss"
 import OakButton from "../oakfly/OakButton"
 import { httpGet, httpPost } from "../Lib/RestTemplate"
@@ -14,12 +14,18 @@ export default function RegisterForm(props: Props) {
   const [emailAlreadyExists, setEmailAlreadyExists] = useState(false);
   const [memberId, setMemberId] = useState("");
   const [errorFields, setErrorFields] = useState({
-    firstName: '', lastName: '', email: '', telephone: ''
+    firstName: '', lastName: '', email: '', telephone: '', code: ''
   })
 
   const [state, setState] = useState({
-    firstName: '', lastName: '', email: '', telephone: ''
+    firstName: '', lastName: '', email: '', telephone: '', code: ''
   });
+
+  useEffect(() => {
+    if (memberId) {
+      window.open(`https://members.ioak.io/#/member/${memberId}/edit`, '_blank');
+    }
+  }, [memberId]);
 
   const handleChange = (event: any) => {
     setErrorFields({ ...errorFields, [event.currentTarget.name]: "" });
@@ -29,7 +35,7 @@ export default function RegisterForm(props: Props) {
   const handleClose = () => {
     OpenRegistrationFormEvent.next(false);
     setState({
-      firstName: '', lastName: '', email: '', telephone: ''
+      firstName: '', lastName: '', email: '', telephone: '', code: ''
     });
     setEmailAlreadyExists(false);
     setMemberId("");
@@ -38,7 +44,7 @@ export default function RegisterForm(props: Props) {
   const handleSubmit = (event: any) => {
     event.preventDefault();
     if (validateForm()) {
-      httpPost("/api/member", {...state, email: state.email.toLowerCase()}, {}).then((response: any) => {
+      httpPost("/api/member", { ...state, email: state.email.toLowerCase() }, {}).then((response: any) => {
         setMemberId(response.data.memberId);
       })
         .catch((error: any) => {
@@ -129,6 +135,22 @@ export default function RegisterForm(props: Props) {
               {errorFields.email &&
                 <div className="register-form__content__form__error">
                   {errorFields.email}
+                </div>}
+            </div>
+            <div>
+              <div className="register-form__content__form__label">Password*</div>
+              <input
+                className={`register-form__content__form__input ${errorFields.code ? 'register-form__content__form__input--error' : ''}`}
+                autoComplete="off"
+                name="code"
+                id="code"
+                type="password"
+                value={state.code}
+                onChange={handleChange}
+                placeholder="Password" />
+              {errorFields.code &&
+                <div className="register-form__content__form__error">
+                  {errorFields.code}
                 </div>}
             </div>
             <div>
